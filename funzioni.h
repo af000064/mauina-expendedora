@@ -29,4 +29,12 @@ void modificar_producto(Producto *arr, int n);
 int cargar_texto(const char *ruta, Producto *arr, int cap, int *out_n);
 int guardar_texto(const char *ruta, const Producto *arr, int n);
 
+// --- Funciones de Interfaz (ANSI) ---
+void clearScreen(void);
+void resetStyle(void);
+void setColor(int fg, int bg);
+void hideCursor(void);
+void showCursor(void);
+void gotoxy(int x, int y);
+
 #endif // FUNZIONI_H

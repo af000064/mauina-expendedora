@@ -3,4 +3,6 @@ project(mauina_expendedora C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(mauina_expendedora main.c)
+add_executable(mauina_expendedora main.c
+        funzioni.c
+        funzioni.h)
